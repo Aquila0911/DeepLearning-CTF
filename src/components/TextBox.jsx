@@ -11,7 +11,7 @@ export default function TextBox() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (inputValue === flag) {
-      navigate("/success");
+      navigate("/DeepLearning-CTF/success");
     } else {
       setErrorMessage("Incorrect flag :(");
     }
