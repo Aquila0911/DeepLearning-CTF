@@ -7,11 +7,11 @@ import Success from "./components/Success.jsx"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/DeepLearning-CTF/",
     element: <App />,
   },
   {
-    path: "/success",
+    path: "/DeepLearning-CTF/success",
     element: <Success />,
   },
 ]);
